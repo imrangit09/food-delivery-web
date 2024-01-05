@@ -16,18 +16,20 @@ body {
 /*main*/
 .logo {
   text-align: center;
+  width: 100%;
+  z-index: 999;
 }
 
 .lline {
   position: absolute;
-  width: 40%;
+  width: 42%;
   top: 7vh;
   border: 2px solid #ec953c;
 }
 
 .rline {
   position: absolute;
-  width: 40%;
+  width: 42%;
   top: 7vh;
   right: 0;
   border: 2px solid #ec953c;
@@ -420,12 +422,12 @@ h3 {
   }
 
   .lline {
-    width: 40%;
+    width: 36%;
     top: 5vh;
   }
 
   .rline {
-    width: 40%;
+    width: 36%;
     top: 5vh;
   }
 
